@@ -18,7 +18,6 @@ I like turning new ideas into things that actually work.
 > mode    : learn → build → iterate
 ```
 
-<div align="center"><img src="./assets/workflow.svg" width="100%" alt="Animated workflow: idea to prototype to iteration" /></div>
 
 ### 🧭 What I'm exploring
 
