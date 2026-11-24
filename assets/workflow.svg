@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="225" viewBox="0 0 1000 225" role="img" aria-labelledby="title description">
+  <title id="title">From idea to iteration</title>
+  <desc id="description">Animated cyan-blue workflow with three illuminated stages and flowing signals</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#04172b"/><stop offset=".55" stop-color="#062d4d"/><stop offset="1" stop-color="#041629"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#0ea5e9" stop-opacity=".2"/><stop offset=".5" stop-color="#67e8f9" stop-opacity=".8"/><stop offset="1" stop-color="#0ea5e9" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="card" x2="0" y2="1"><stop stop-color="#0c3a59" stop-opacity=".86"/><stop offset="1" stop-color="#071e35" stop-opacity=".94"/></linearGradient>
+    <linearGradient id="signal"><stop stop-color="#38bdf8" stop-opacity="0"/><stop offset=".5" stop-color="#b6f6ff"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#7dd3fc" stroke-opacity=".06"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="frame"><rect width="1000" height="225" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="225" fill="url(#background)"/><rect width="1000" height="225" fill="url(#grid)"/>
+    <circle cx="495" cy="118" r="280" fill="url(#halo)"/>
+    <path d="M-50 197 Q100 178 250 197 T550 197 T850 197 T1150 197" fill="none" stroke="#38bdf8" stroke-opacity=".12" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="0 0;120 0" dur="12s" repeatCount="indefinite"/></path>
+    <path d="M-70 211 Q95 194 260 211 T590 211 T920 211 T1250 211" fill="none" stroke="#22d3ee" stroke-opacity=".10" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="-100 0;0 0" dur="9s" repeatCount="indefinite"/></path>
+    <text x="45" y="35" fill="#85dff4" font-family="Consolas,Monaco,monospace" font-size="11" letter-spacing="2">BUILD CYCLE <tspan fill="#4d89a7">/ 001</tspan></text>
+    <text x="955" y="35" text-anchor="end" fill="#6fb7d1" font-family="Consolas,Monaco,monospace" font-size="11" letter-spacing="1">ALWAYS IN MOTION</text>
+    <path d="M307 125H368M632 125H693" fill="none" stroke="#4da4c8" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 6"/>
+    <path d="M307 125H368M632 125H693" fill="none" stroke="url(#signal)" stroke-width="3" stroke-dasharray="28 120"><animate attributeName="stroke-dashoffset" values="150;0" dur="2.5s" repeatCount="indefinite"/></path>
+    <circle r="4" fill="#d6fbff" filter="url(#glow)"><animateMotion path="M307 125H368" dur="2.5s" repeatCount="indefinite"/></circle><circle r="3" fill="#d6fbff"><animateMotion path="M307 125H368" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#d6fbff" filter="url(#glow)"><animateMotion path="M632 125H693" dur="2.5s" begin=".8s" repeatCount="indefinite"/></circle><circle r="3" fill="#d6fbff"><animateMotion path="M632 125H693" dur="2.5s" begin=".8s" repeatCount="indefinite"/></circle>
+    <g font-family="Consolas,Monaco,monospace">
+      <rect x="45" y="59" width="262" height="127" rx="15" fill="url(#card)" stroke="url(#edge)" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="58" y="72" width="236" height="2" rx="1" fill="url(#signal)" opacity=".45"/>
+      <circle cx="89" cy="124" r="27" fill="#083b54" stroke="#4fc9ef" stroke-opacity=".5"/>
+      <path d="M89 105v8m0 23v8m-19-19h8m23 0h8m-31-11 5 5m12 12 5 5m0-22-5 5m-12 12-5 5" stroke="#75e4f7" stroke-width="2" stroke-linecap="round"><animate attributeName="opacity" values=".5;1;.5" dur="3s" repeatCount="indefinite"/></path><circle cx="89" cy="125" r="7" fill="#8beaff"/>
+      <text x="132" y="112" fill="#7bd9ed" font-size="11" letter-spacing="1.5">01 / DISCOVER</text><text x="132" y="142" fill="#f0fbff" font-size="21" font-weight="700">IDEA</text><text x="132" y="165" fill="#8cb8ce" font-size="11">Find the signal</text>
+
+      <rect x="369" y="59" width="262" height="127" rx="15" fill="url(#card)" stroke="url(#edge)" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".35;.35;1;.35" keyTimes="0;.25;.55;1" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="382" y="72" width="236" height="2" rx="1" fill="url(#signal)" opacity=".45"/>
+      <circle cx="413" cy="124" r="27" fill="#083b54" stroke="#4fc9ef" stroke-opacity=".5"/>
+      <path d="m405 115-8 9 8 9m16-18 8 9-8 9m-4-21-8 24" fill="none" stroke="#8beaff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="456" y="112" fill="#7bd9ed" font-size="11" letter-spacing="1.5">02 / CREATE</text><text x="456" y="142" fill="#f0fbff" font-size="21" font-weight="700">PROTOTYPE</text><text x="456" y="165" fill="#8cb8ce" font-size="11">Make it tangible</text>
+
+      <rect x="693" y="59" width="262" height="127" rx="15" fill="url(#card)" stroke="url(#edge)" stroke-width="1.5"><animate attributeName="stroke-opacity" values=".35;.35;1;.35" keyTimes="0;.5;.8;1" dur="6s" repeatCount="indefinite"/></rect>
+      <rect x="706" y="72" width="236" height="2" rx="1" fill="url(#signal)" opacity=".45"/>
+      <circle cx="737" cy="124" r="27" fill="#083b54" stroke="#4fc9ef" stroke-opacity=".5"/>
+      <path d="M750 121a14 14 0 1 0-3 12m3-12-1-8m1 8-8-2" fill="none" stroke="#8beaff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="rotate" values="0 737 124;360 737 124" dur="12s" repeatCount="indefinite"/></path>
+      <text x="780" y="112" fill="#7bd9ed" font-size="11" letter-spacing="1.5">03 / EVOLVE</text><text x="780" y="142" fill="#f0fbff" font-size="21" font-weight="700">ITERATE</text><text x="780" y="165" fill="#8cb8ce" font-size="11">Keep improving</text>
+    </g>
+    <path d="M45 199H955" stroke="#67e8f9" stroke-opacity=".18"/><rect x="45" y="198" width="100" height="2" fill="url(#signal)"><animate attributeName="x" values="45;955" dur="6s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

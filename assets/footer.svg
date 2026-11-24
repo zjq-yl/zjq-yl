@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="95" viewBox="0 0 1000 95" role="img" aria-label="Thanks for stopping by, keep building">
+  <defs><linearGradient id="line"><stop stop-color="#2dd4bf"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs>
+  <rect width="1000" height="95" rx="16" fill="#0d1117"/><path d="M40 19H960" stroke="url(#line)" stroke-width="2"/>
+  <text x="500" y="59" text-anchor="middle" fill="#e5e7eb" font-family="Consolas,Monaco,monospace" font-size="22">Thanks for stopping by. Keep building <tspan fill="#2dd4bf">_</tspan></text>
+  <circle cx="960" cy="19" r="4" fill="#2dd4bf"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
+</svg>
